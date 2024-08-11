@@ -7,6 +7,7 @@ import re
 import os
 from os import environ
 from Script import script
+
 id_pattern = re.compile(r'^.\d+$')
 def is_enabled(value, default):
     if value.lower() in ["true", "yes", "1", "enable", "y"]:
